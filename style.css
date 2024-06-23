@@ -1054,4 +1054,9 @@ body {
   bottom: -24px;
   left: 50%;
   transform: translateX(-50%);
+}
+@media (max-width: 428px) {
+  #home .activeLink img {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
