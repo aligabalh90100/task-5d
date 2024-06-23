@@ -1040,4 +1040,18 @@ body {
     left: -15px;
     top: 50px;
   }
+}
+
+#home ul li {
+  position: relative;
+}
+#home ul li img {
+  display: none;
+}
+#home .activeLink img {
+  display: block;
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  transform: translateX(-50%);
 }/*# sourceMappingURL=style.css.map */
